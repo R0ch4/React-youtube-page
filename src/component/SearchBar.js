@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import logo from './../../public/youtube-logo.png';
 
 export default class SearchBar extends Component{
 	constructor(props) {
@@ -8,7 +9,8 @@ export default class SearchBar extends Component{
 
 	render() {
 		return(
-			<div className="search-bar">
+			<div className=" navbar navbar-default search-bar">
+				<img src={logo} className="App-logo" alt="logo" />
 				<input value={this.state.term}
 				onChange={event => this.onInputChange(event.target.value)}/>
 			</div>

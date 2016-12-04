@@ -19,7 +19,7 @@ constructor(props) {
       selectedVideo:null
     };
   
-  this.videoSearch('surfboards');    
+  this.videoSearch('MinDigitall');    
 }
 
   videoSearch(term){
@@ -30,6 +30,8 @@ constructor(props) {
       });
     });
   }
+
+
 
 
   render() {
