@@ -10,9 +10,11 @@ export default class SearchBar extends Component{
 	render() {
 		return(
 			<div className=" navbar navbar-default search-bar">
-				<img src={logo} className="App-logo" alt="logo" />
+				
+				<a href="/" ><img src={logo} className="App-logo" alt="logo"/></a>
 				<input value={this.state.term}
 				onChange={event => this.onInputChange(event.target.value)}/>
+				
 			</div>
 		);
 	}

@@ -6,6 +6,7 @@
 .search-bar input{
 	width: 80%;
 }
+
 .App-logo{
 	padding-right: 5%;
 	padding-left: 0px;
@@ -26,6 +27,9 @@
 	border-radius: 4px;
 	background: white;
 }
+.body{
+	position: absolute;
+}
 
 .list-group-item{
 	cursor: pointer;
@@ -35,10 +39,22 @@
 	background-color: #eee; 
 }
 
+#videoTitle{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#listaVideos{
+	font-size: 15px;
+	font-weight: bold;
+}
+
 .navbar.navbar-default{
 	padding-top: 10px;
-	width: 115%;
-	right: 7%;
+	background-color: white;
+	align-content: center;
+	width: 118%;
+	right: 10%;
 }
 
 #layout {

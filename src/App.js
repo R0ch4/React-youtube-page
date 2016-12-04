@@ -19,7 +19,7 @@ constructor(props) {
       selectedVideo:null
     };
   
-  this.videoSearch('MinDigitall');    
+  this.videoSearch('mindigitall');    
 }
 
   videoSearch(term){
@@ -30,8 +30,6 @@ constructor(props) {
       });
     });
   }
-
-
 
 
   render() {
